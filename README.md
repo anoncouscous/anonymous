@@ -4,6 +4,52 @@ Finding peptide targets that bind to HLAs and trigger an immune response is chal
 
 In this repo you can find all the scripts used to perform the given analysis.
 
+Check out the following subsections of this repo:
+
+- [Software requirements](#software-requirements) gives an overview of software needed to run the analysis and provides installation instructions.
+- [Interactive dashboards](#interactive-dashboards) gives a chance for readers to take an interactive look into the data presented in the paper.
+- [Datasets and methods](#datasets-and-methods) gives details of the content of this repo and outlines steps performed with the notebooks.
+- [Additional Resources](#additional-resources) provides background on related databases and literature
+
+
+
+## Software requirements
+
+#### Option 1 - running the scripts with Binder
+
+The simplest way to run the analysis is to use our binder connection:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD)
+
+Be patient as Binder might take some time to load. Then follow the instructions given by the [Datasets and methods section](#datasets-and-methods) and readme files in the subfolders to perform the analysis. 
+
+
+#### Option 2 - running the scripts locally
+Most of the analysis is performed in python and wrapped in jupyter notebooks. You will need:
+ - [Python](https://www.python.org/) (version 3.7 or later)
+ - Packages listed in the  `requirements.txt`, most notably:
+   - plotly
+   - pandas
+   - scipy
+   - numpy   
+ - [Jupyter](https://jupyter.org/install)
+ - [IEDB population coverage tool](http://tools.iedb.org/population/download/)
+   
+Analysis related to the algorithmic bias is performed in R. To run this analysis you will need [RStudio](https://posit.co/products/open-source/rstudio/).
+Clone the content of this repository and follow the instructions given by the [Datasets and methods section](#datasets-and-methods) 
+
+
+  
+## Interactive dashboards
+
+Using binder, jupyter and voila we constructed interactive dashboards with the data we analyzed. 
+
+1. Take a look at HLA allele frequencies across different populations (from the [AFND](http://www.allelefrequencies.net/) database).
+  -   See a **UMAP embedding** of the populations based on the allele: populations close to each other have similar allele profiles; select populations to display their alleles.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=%2Fvoila%2Frender/AFND_population_frequencies%2FAFND_visualize_inderactive_umap.ipynb)
+
+  -   
+
 ## Datasets and methods
 
 ### 1. Mapping HLA alleles to geographic populations and classifying them by income level 
@@ -124,5 +170,3 @@ The code for running this analysis is in the folder  `Algorithmic_bias_analysis`
    - [Pyke et al.](https://pubmed.ncbi.nlm.nih.gov/34126241/) 2021: Precision Neoantigen Discovery Using Large-scale Immunopeptidomes and Composite Modeling of MHC Peptide Presentation
 
 
-  
-### Figure generation
