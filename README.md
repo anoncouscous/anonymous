@@ -84,7 +84,7 @@ The code for running this analysis is in the folder  `Algorithmic_bias_analysis`
 ## Additional Resources
 
 ### Databases
-<details>
+
 
   
   - [AFND](http://www.allelefrequencies.net/) Allele frequency net database
@@ -104,10 +104,10 @@ The code for running this analysis is in the folder  `Algorithmic_bias_analysis`
   Contains the [population coverage](http://tools.iedb.org/population/) module
   
 - [hla.alleles.org](http://hla.alleles.org)
-</details>
+
 
 ### Literature
-<details>
+
   
 - Works that mention/address the possible bias in the therapeutics.
   
@@ -123,6 +123,6 @@ The code for running this analysis is in the folder  `Algorithmic_bias_analysis`
 
    - [Pyke et al.](https://pubmed.ncbi.nlm.nih.gov/34126241/) 2021: Precision Neoantigen Discovery Using Large-scale Immunopeptidomes and Composite Modeling of MHC Peptide Presentation
 
-</details>
+
   
 ### Figure generation
