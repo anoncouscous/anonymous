@@ -44,9 +44,15 @@ Clone the content of this repository and follow the instructions given by the [D
 
 Using binder, jupyter and voila we constructed interactive dashboards with the data we analyzed. 
 
-1. Take a look at HLA allele frequencies across different populations (from the [AFND](http://www.allelefrequencies.net/) database).
-  -   See a **UMAP embedding** of the populations based on the allele: populations close to each other have similar allele profiles; select populations to display their alleles.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=%2Fvoila%2Frender/AFND_population_frequencies%2FAFND_visualize_inderactive_umap.ipynb)
+⚠️⏰ The dashboards might take up to 5 min to load (if you're experiencing longer waits, please report an issue).⏰⚠️ 
+
+ **1. Take a look atHLA allele frequencies across different populations (from the [AFND](http://www.allelefrequencies.net/) database).**
+  - See **_allele frequencies per populations_** - select one or more populations from the dropdown using CTRL+SHIFT keys
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_per_country_frequencies.ipynb)
+  - See a **_hierarchical clustering of populations_** based on their HLA allele frequencies (populations clustered together have a similar HLA allele content)
+      - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_dendograms.ipynb)
+  -   See a **_UMAP embedding_** of the populations based on the allele: populations close to each other have similar allele profiles; select populations to display their alleles.
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_inderactive_umap.ipynb)
 
   -   
 
