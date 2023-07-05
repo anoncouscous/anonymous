@@ -19,7 +19,7 @@ Check out the following subsections of this repo:
 
 The simplest way to run the analysis is to use our binder connection:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb)
 
 Be patient as Binder might take some time to load. Then follow the instructions given by the [Datasets and methods section](#datasets-and-methods) and readme files in the subfolders to perform the analysis. 
 
@@ -44,24 +44,24 @@ Clone the content of this repository and follow the instructions given by the [D
 
 Using binder, jupyter and voila we constructed interactive dashboards with the data we analyzed. 
 
-⚠️⏰ The dashboards should take up to 2 min to load (if you're experiencing longer waits, please report an issue).⏰⚠️ 
+⚠️⏰ The dashboards should take up to 2 min to load!⏰⚠️ (if you're experiencing longer waits, please report an issue)
 
  **1. Take a look at HLA allele frequencies across different populations (from the [AFND](http://www.allelefrequencies.net/) database).**
   - See **_allele frequencies per populations_** - select one or more populations from the dropdown using CTRL+SHIFT keys
-       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_per_country_frequencies.ipynb)
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_per_country_frequencies.ipynb)
   - See a **_hierarchical clustering of populations_** based on their HLA allele frequencies (populations clustered together have a similar HLA allele content)
-      - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_dendograms.ipynb)
+      - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_dendograms.ipynb)
   -   See a **_UMAP embedding_** of the populations based on the allele: populations close to each other have similar allele profiles; select populations to display their alleles.
-       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_interactive_umap.ipynb)
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FAFND_population_frequencies%2FAFND_visualize_interactive_umap.ipynb)
       
  **2. Take a look at the allele content of training datasets (NetMHCpan4.1 and MHCFlurry2.0)**
   -  See the number of peptides per allele
-       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FDatasets_population_coverage%2Fdatasets%2FVisualize_datasets.ipynb)
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FDatasets_population_coverage%2Fdatasets%2FVisualize_datasets.ipynb)
   -  See the population coverage of different datasets
-       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FDatasets_population_coverage%2FVisualize_results.ipynb)  
+       - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FDatasets_population_coverage%2FVisualize_results.ipynb)  
 
  **3. Inspect the literature origin of the [IEDB](https://www.iedb.org/) currated  data**
-   - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/HEAD?urlpath=voila%2Frender%2FIEDB_literature_analysis%2FVisualizations.ipynb)
+   - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anoncouscous/anonymous.git/0a39ef7e84810047561ed2cd740b20585f0c80bb?urlpath=voila%2Frender%2FIEDB_literature_analysis%2FVisualizations.ipynb)
 
 ## Datasets and methods
 
