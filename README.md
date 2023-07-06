@@ -11,6 +11,7 @@ Check out the following subsections of this repo:
 - [Datasets and methods](#datasets-and-methods) gives details of the content of this repo and outlines steps performed with the notebooks.
 - [Additional Resources](#additional-resources) provides background on related databases and literature
 
+![pc90_view](https://github.com/anoncouscous/anonymous/assets/138625514/063a5df6-6049-443e-b3d0-a33d8c616c9c)
 
 
 ## Software requirements
